@@ -108,12 +108,12 @@
         },
         {
           "Path": "AADAC|Relative expression in blood cells",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "ValueOrigin": {}
         },
         {
           "Path": "AADAC|Relative expression in plasma",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "ValueOrigin": {}
         },
         {
@@ -130,12 +130,12 @@
         },
         {
           "Path": "Organism|Bone|Intracellular|AADAC|Relative expression",
-          "Value": 4.8717948718E-05,
+          "Value": 4.8717948718e-05,
           "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|AADAC|Relative expression",
-          "Value": 3.9743589744E-05,
+          "Value": 3.9743589744e-05,
           "ValueOrigin": {}
         },
         {
@@ -150,7 +150,7 @@
         },
         {
           "Path": "Organism|Kidney|Intracellular|AADAC|Relative expression",
-          "Value": 5.7051282051E-05,
+          "Value": 5.7051282051e-05,
           "ValueOrigin": {}
         },
         {
@@ -661,7 +661,7 @@
         },
         {
           "Path": "Organism|Lung|Intracellular|OATP1B1|Relative expression",
-          "Value": 4.0079365079E-05,
+          "Value": 4.0079365079e-05,
           "ValueOrigin": {}
         },
         {
@@ -1512,7 +1512,7 @@
           "Parameters": [
             {
               "Name": "Specific intestinal permeability (transcellular)",
-              "Value": 1.23E-06,
+              "Value": 1.23e-06,
               "Unit": "dm/min",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
@@ -2333,7 +2333,7 @@
       "Parameters": [
         {
           "Path": "Clarithromycin|P (blood cells->plasma)",
-          "Value": 1.04E-06,
+          "Value": 1.04e-06,
           "Unit": "dm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -2341,7 +2341,7 @@
         },
         {
           "Path": "Clarithromycin|P (plasma->blood cells)",
-          "Value": 3.62E-05,
+          "Value": 3.62e-05,
           "Unit": "dm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -2393,7 +2393,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-fitted",
@@ -2404,6 +2404,142 @@
           "Name": "P-gp-Eberl (2007)",
           "MoleculeName": "P-gp",
           "CompoundName": "Clarithromycin"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Clarithromycin iv, Chu 1992, 250 mg, 0.75 h-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Clarithromycin iv, Chu 1992, 250 mg, 0.75 h|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Chu 1991, 250 mg iv-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Chu 1991, 250 mg iv|Time  ",
+              "Y": "Chu 1991, 250 mg iv|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Clarithromycin-Model\nClarithromycin iv, Chu 1992, 250 mg, 0.75 h\n2020-04-01 17:08"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Clarithromycin iv, Chu 1992, 250 mg, 0.75 h-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Clarithromycin iv, Chu 1992, 250 mg, 0.75 h|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Chu 1991, 250 mg iv-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Chu 1991, 250 mg iv|Time  ",
+              "Y": "Chu 1991, 250 mg iv|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Clarithromycin-Model\nClarithromycin iv, Chu 1992, 250 mg, 0.75 h\n2020-04-01 17:10"
         }
       ]
     },
@@ -2443,7 +2579,7 @@
       "Parameters": [
         {
           "Path": "Clarithromycin|P (blood cells->plasma)",
-          "Value": 1.04E-06,
+          "Value": 1.04e-06,
           "Unit": "dm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -2451,7 +2587,7 @@
         },
         {
           "Path": "Clarithromycin|P (plasma->blood cells)",
-          "Value": 3.62E-05,
+          "Value": 3.62e-05,
           "Unit": "dm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -2545,7 +2681,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-fitted",
@@ -2556,6 +2692,146 @@
           "Name": "P-gp-Eberl (2007)",
           "MoleculeName": "P-gp",
           "CompoundName": "Clarithromycin"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Clarithromycin po, Abduljalil 2009, 500 mg, MD, 3.5 d-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Clarithromycin po, Abduljalil 2009, 500 mg, MD, 3.5 d|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Abduljalil 2009, 500 mg po MD-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Abduljalil 2009, 500 mg po MD|Time  ",
+              "Y": "Abduljalil 2009, 500 mg po MD|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Clarithromycin-Model\nClarithromycin po, Abduljalil 2009, 500 mg, MD, 3.5 d\n2020-04-01 17:09"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -3.0590775,
+              "Max": 89.75209,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.02403305,
+              "Max": 5.632451,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Clarithromycin po, Abduljalil 2009, 500 mg, MD, 3.5 d-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Clarithromycin po, Abduljalil 2009, 500 mg, MD, 3.5 d|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Abduljalil 2009, 500 mg po MD-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Abduljalil 2009, 500 mg po MD|Time  ",
+              "Y": "Abduljalil 2009, 500 mg po MD|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Clarithromycin-Model\nClarithromycin po, Abduljalil 2009, 500 mg, MD, 3.5 d\n2020-04-01 17:11"
         }
       ]
     },
@@ -2595,7 +2871,7 @@
       "Parameters": [
         {
           "Path": "Clarithromycin|P (blood cells->plasma)",
-          "Value": 1.04E-06,
+          "Value": 1.04e-06,
           "Unit": "dm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -2603,7 +2879,7 @@
         },
         {
           "Path": "Clarithromycin|P (plasma->blood cells)",
-          "Value": 3.62E-05,
+          "Value": 3.62e-05,
           "Unit": "dm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -2661,7 +2937,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-fitted",
@@ -2672,6 +2948,142 @@
           "Name": "P-gp-Eberl (2007)",
           "MoleculeName": "P-gp",
           "CompoundName": "Clarithromycin"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Clarithromycin po, Chu 1992, 100 mg-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Clarithromycin po, Chu 1992, 100 mg|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Chu 1992, 100 mg po-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration  ",
+              "X": "Chu 1992, 100 mg po|Time  ",
+              "Y": "Chu 1992, 100 mg po|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1992, 100 mg\n2020-04-01 17:09"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Clarithromycin po, Chu 1992, 100 mg-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Clarithromycin po, Chu 1992, 100 mg|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Chu 1992, 100 mg po-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration  ",
+              "X": "Chu 1992, 100 mg po|Time  ",
+              "Y": "Chu 1992, 100 mg po|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1992, 100 mg\n2020-04-01 17:11"
         }
       ]
     },
@@ -2711,7 +3123,7 @@
       "Parameters": [
         {
           "Path": "Clarithromycin|P (blood cells->plasma)",
-          "Value": 1.04E-06,
+          "Value": 1.04e-06,
           "Unit": "dm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -2719,7 +3131,7 @@
         },
         {
           "Path": "Clarithromycin|P (plasma->blood cells)",
-          "Value": 3.62E-05,
+          "Value": 3.62e-05,
           "Unit": "dm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -2777,7 +3189,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-fitted",
@@ -2788,6 +3200,142 @@
           "Name": "P-gp-Eberl (2007)",
           "MoleculeName": "P-gp",
           "CompoundName": "Clarithromycin"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Clarithromycin po, Chu 1992, 1200 mg-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Clarithromycin po, Chu 1992, 1200 mg|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Chu 1992, 1200 mg po-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration  ",
+              "X": "Chu 1992, 1200 mg po|Time  ",
+              "Y": "Chu 1992, 1200 mg po|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1992, 1200 mg\n2020-04-01 17:09"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Clarithromycin po, Chu 1992, 1200 mg-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Clarithromycin po, Chu 1992, 1200 mg|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Chu 1992, 1200 mg po-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration  ",
+              "X": "Chu 1992, 1200 mg po|Time  ",
+              "Y": "Chu 1992, 1200 mg po|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1992, 1200 mg\n2020-04-01 17:11"
         }
       ]
     },
@@ -2827,7 +3375,7 @@
       "Parameters": [
         {
           "Path": "Clarithromycin|P (blood cells->plasma)",
-          "Value": 1.04E-06,
+          "Value": 1.04e-06,
           "Unit": "dm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -2835,7 +3383,7 @@
         },
         {
           "Path": "Clarithromycin|P (plasma->blood cells)",
-          "Value": 3.62E-05,
+          "Value": 3.62e-05,
           "Unit": "dm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -2893,7 +3441,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-fitted",
@@ -2904,6 +3452,142 @@
           "Name": "P-gp-Eberl (2007)",
           "MoleculeName": "P-gp",
           "CompoundName": "Clarithromycin"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Clarithromycin po, Chu 1992, 200 mg-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Clarithromycin po, Chu 1992, 200 mg|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Chu 1992, 200 mg po-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration  ",
+              "X": "Chu 1992, 200 mg po|Time  ",
+              "Y": "Chu 1992, 200 mg po|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1992, 200 mg\n2020-04-01 17:10"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Clarithromycin po, Chu 1992, 200 mg-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Clarithromycin po, Chu 1992, 200 mg|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Chu 1992, 200 mg po-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration  ",
+              "X": "Chu 1992, 200 mg po|Time  ",
+              "Y": "Chu 1992, 200 mg po|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1992, 200 mg\n2020-04-01 17:11"
         }
       ]
     },
@@ -2943,7 +3627,7 @@
       "Parameters": [
         {
           "Path": "Clarithromycin|P (blood cells->plasma)",
-          "Value": 1.04E-06,
+          "Value": 1.04e-06,
           "Unit": "dm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -2951,7 +3635,7 @@
         },
         {
           "Path": "Clarithromycin|P (plasma->blood cells)",
-          "Value": 3.62E-05,
+          "Value": 3.62e-05,
           "Unit": "dm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3009,7 +3693,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-fitted",
@@ -3020,6 +3704,142 @@
           "Name": "P-gp-Eberl (2007)",
           "MoleculeName": "P-gp",
           "CompoundName": "Clarithromycin"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Clarithromycin po, Chu 1992, 400 mg-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Clarithromycin po, Chu 1992, 400 mg|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Chu 1992, 400 mg po-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration  ",
+              "X": "Chu 1992, 400 mg po|Time  ",
+              "Y": "Chu 1992, 400 mg po|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1992, 400 mg\n2020-04-01 17:10"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Clarithromycin po, Chu 1992, 400 mg-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Clarithromycin po, Chu 1992, 400 mg|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Chu 1992, 400 mg po-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration  ",
+              "X": "Chu 1992, 400 mg po|Time  ",
+              "Y": "Chu 1992, 400 mg po|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1992, 400 mg\n2020-04-01 17:12"
         }
       ]
     },
@@ -3059,7 +3879,7 @@
       "Parameters": [
         {
           "Path": "Clarithromycin|P (blood cells->plasma)",
-          "Value": 1.04E-06,
+          "Value": 1.04e-06,
           "Unit": "dm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3067,7 +3887,7 @@
         },
         {
           "Path": "Clarithromycin|P (plasma->blood cells)",
-          "Value": 3.62E-05,
+          "Value": 3.62e-05,
           "Unit": "dm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3125,7 +3945,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-fitted",
@@ -3136,6 +3956,142 @@
           "Name": "P-gp-Eberl (2007)",
           "MoleculeName": "P-gp",
           "CompoundName": "Clarithromycin"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Clarithromycin po, Chu 1992, 600 mg-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Clarithromycin po, Chu 1992, 600 mg|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Chu 1992, 600 mg po-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration  ",
+              "X": "Chu 1992, 600 mg po|Time  ",
+              "Y": "Chu 1992, 600 mg po|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1992, 600 mg\n2020-04-01 17:12"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Clarithromycin po, Chu 1992, 600 mg-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Clarithromycin po, Chu 1992, 600 mg|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Chu 1992, 600 mg po-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration  ",
+              "X": "Chu 1992, 600 mg po|Time  ",
+              "Y": "Chu 1992, 600 mg po|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1992, 600 mg\n2020-04-01 17:12"
         }
       ]
     },
@@ -3175,7 +4131,7 @@
       "Parameters": [
         {
           "Path": "Clarithromycin|P (blood cells->plasma)",
-          "Value": 1.04E-06,
+          "Value": 1.04e-06,
           "Unit": "dm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3183,7 +4139,7 @@
         },
         {
           "Path": "Clarithromycin|P (plasma->blood cells)",
-          "Value": 3.62E-05,
+          "Value": 3.62e-05,
           "Unit": "dm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3241,7 +4197,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-fitted",
@@ -3252,6 +4208,142 @@
           "Name": "P-gp-Eberl (2007)",
           "MoleculeName": "P-gp",
           "CompoundName": "Clarithromycin"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Clarithromycin po, Chu 1992, 800 mg-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Clarithromycin po, Chu 1992, 800 mg|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Chu 1992, 800 mg po-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration  ",
+              "X": "Chu 1992, 800 mg po|Time  ",
+              "Y": "Chu 1992, 800 mg po|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1992, 800 mg\n2020-04-01 17:13"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Clarithromycin po, Chu 1992, 800 mg-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Clarithromycin po, Chu 1992, 800 mg|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Chu 1992, 800 mg po-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration  ",
+              "X": "Chu 1992, 800 mg po|Time  ",
+              "Y": "Chu 1992, 800 mg po|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1992, 800 mg\n2020-04-01 17:13"
         }
       ]
     },
@@ -3291,7 +4383,7 @@
       "Parameters": [
         {
           "Path": "Clarithromycin|P (blood cells->plasma)",
-          "Value": 1.04E-06,
+          "Value": 1.04e-06,
           "Unit": "dm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3299,7 +4391,7 @@
         },
         {
           "Path": "Clarithromycin|P (plasma->blood cells)",
-          "Value": 3.62E-05,
+          "Value": 3.62e-05,
           "Unit": "dm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3357,7 +4449,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-fitted",
@@ -3368,6 +4460,142 @@
           "Name": "P-gp-Eberl (2007)",
           "MoleculeName": "P-gp",
           "CompoundName": "Clarithromycin"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Clarithromycin po, Chu 1993, 250 mg-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Clarithromycin po, Chu 1993, 250 mg|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Chu 1993, 250 mg po-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration  ",
+              "X": "Chu 1993, 250 mg po|Time  ",
+              "Y": "Chu 1993, 250 mg po|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1993, 250 mg\n2020-04-01 17:13"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Clarithromycin po, Chu 1993, 250 mg-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Clarithromycin po, Chu 1993, 250 mg|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Chu 1993, 250 mg po-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration  ",
+              "X": "Chu 1993, 250 mg po|Time  ",
+              "Y": "Chu 1993, 250 mg po|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1993, 250 mg\n2020-04-01 17:13"
         }
       ]
     },
@@ -3407,7 +4635,7 @@
       "Parameters": [
         {
           "Path": "Clarithromycin|P (blood cells->plasma)",
-          "Value": 1.04E-06,
+          "Value": 1.04e-06,
           "Unit": "dm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3415,7 +4643,7 @@
         },
         {
           "Path": "Clarithromycin|P (plasma->blood cells)",
-          "Value": 3.62E-05,
+          "Value": 3.62e-05,
           "Unit": "dm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3509,7 +4737,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-fitted",
@@ -3520,6 +4748,146 @@
           "Name": "P-gp-Eberl (2007)",
           "MoleculeName": "P-gp",
           "CompoundName": "Clarithromycin"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Clarithromycin po, Chu 1993, 250 mg, MD, 3.5 d-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Clarithromycin po, Chu 1993, 250 mg, MD, 3.5 d|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Chu 1993, 250 mg po MD-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration  ",
+              "X": "Chu 1993, 250 mg po MD|Time  ",
+              "Y": "Chu 1993, 250 mg po MD|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1993, 250 mg, MD, 3.5 d\n2020-04-01 17:15"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -1.60808527,
+              "Max": 98.76031,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0344812721,
+              "Max": 1.93324947,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Clarithromycin po, Chu 1993, 250 mg, MD, 3.5 d-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Clarithromycin po, Chu 1993, 250 mg, MD, 3.5 d|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Chu 1993, 250 mg po MD-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration  ",
+              "X": "Chu 1993, 250 mg po MD|Time  ",
+              "Y": "Chu 1993, 250 mg po MD|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1993, 250 mg, MD, 3.5 d\n2020-04-01 17:15"
         }
       ]
     },
@@ -3559,7 +4927,7 @@
       "Parameters": [
         {
           "Path": "Clarithromycin|P (blood cells->plasma)",
-          "Value": 1.04E-06,
+          "Value": 1.04e-06,
           "Unit": "dm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3567,7 +4935,7 @@
         },
         {
           "Path": "Clarithromycin|P (plasma->blood cells)",
-          "Value": 3.62E-05,
+          "Value": 3.62e-05,
           "Unit": "dm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3625,7 +4993,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-fitted",
@@ -3636,6 +5004,142 @@
           "Name": "P-gp-Eberl (2007)",
           "MoleculeName": "P-gp",
           "CompoundName": "Clarithromycin"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Clarithromycin po, Chu 1993, 500 mg-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Clarithromycin po, Chu 1993, 500 mg|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Chu 1993, 500 mg po-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration  ",
+              "X": "Chu 1993, 500 mg po|Time  ",
+              "Y": "Chu 1993, 500 mg po|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1993, 500 mg\n2020-04-01 17:16"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Clarithromycin po, Chu 1993, 500 mg-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Clarithromycin po, Chu 1993, 500 mg|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Chu 1993, 500 mg po-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration  ",
+              "X": "Chu 1993, 500 mg po|Time  ",
+              "Y": "Chu 1993, 500 mg po|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1993, 500 mg\n2020-04-01 17:16"
         }
       ]
     },
@@ -3675,7 +5179,7 @@
       "Parameters": [
         {
           "Path": "Clarithromycin|P (blood cells->plasma)",
-          "Value": 1.04E-06,
+          "Value": 1.04e-06,
           "Unit": "dm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3683,7 +5187,7 @@
         },
         {
           "Path": "Clarithromycin|P (plasma->blood cells)",
-          "Value": 3.62E-05,
+          "Value": 3.62e-05,
           "Unit": "dm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3777,7 +5281,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-fitted",
@@ -3788,6 +5292,146 @@
           "Name": "P-gp-Eberl (2007)",
           "MoleculeName": "P-gp",
           "CompoundName": "Clarithromycin"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Clarithromycin po, Chu 1993, 500 mg, MD, 3.5 d-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Clarithromycin po, Chu 1993, 500 mg, MD, 3.5 d|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Chu 1993, 500 mg po MD-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration  ",
+              "X": "Chu 1993, 500 mg po MD|Time  ",
+              "Y": "Chu 1993, 500 mg po MD|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1993, 500 mg, MD, 3.5 d\n2020-04-01 17:16"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -3.18869,
+              "Max": 99.41889,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.129793435,
+              "Max": 3.178602,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Clarithromycin po, Chu 1993, 500 mg, MD, 3.5 d-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Clarithromycin po, Chu 1993, 500 mg, MD, 3.5 d|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Chu 1993, 500 mg po MD-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration  ",
+              "X": "Chu 1993, 500 mg po MD|Time  ",
+              "Y": "Chu 1993, 500 mg po MD|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1993, 500 mg, MD, 3.5 d\n2020-04-01 17:16"
         }
       ]
     },
@@ -3827,7 +5471,7 @@
       "Parameters": [
         {
           "Path": "Clarithromycin|P (blood cells->plasma)",
-          "Value": 1.04E-06,
+          "Value": 1.04e-06,
           "Unit": "dm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3835,7 +5479,7 @@
         },
         {
           "Path": "Clarithromycin|P (plasma->blood cells)",
-          "Value": 3.62E-05,
+          "Value": 3.62e-05,
           "Unit": "dm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3893,7 +5537,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-fitted",
@@ -3904,6 +5548,142 @@
           "Name": "P-gp-Eberl (2007)",
           "MoleculeName": "P-gp",
           "CompoundName": "Clarithromycin"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Clarithromycin po, Kees 1995, 250 mg-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Clarithromycin po, Kees 1995, 250 mg|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Kees 1995, 250 mg po-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration  ",
+              "X": "Kees 1995, 250 mg po|Time  ",
+              "Y": "Kees 1995, 250 mg po|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Clarithromycin-Model\nClarithromycin po, Kees 1995, 250 mg\n2020-04-01 17:17"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Clarithromycin po, Kees 1995, 250 mg-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Clarithromycin po, Kees 1995, 250 mg|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Kees 1995, 250 mg po-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration  ",
+              "X": "Kees 1995, 250 mg po|Time  ",
+              "Y": "Kees 1995, 250 mg po|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Clarithromycin-Model\nClarithromycin po, Kees 1995, 250 mg\n2020-04-01 17:17"
         }
       ]
     },
@@ -3943,7 +5723,7 @@
       "Parameters": [
         {
           "Path": "Clarithromycin|P (blood cells->plasma)",
-          "Value": 1.04E-06,
+          "Value": 1.04e-06,
           "Unit": "dm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3951,7 +5731,7 @@
         },
         {
           "Path": "Clarithromycin|P (plasma->blood cells)",
-          "Value": 3.62E-05,
+          "Value": 3.62e-05,
           "Unit": "dm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -4057,7 +5837,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-fitted",
@@ -4068,6 +5848,146 @@
           "Name": "P-gp-Eberl (2007)",
           "MoleculeName": "P-gp",
           "CompoundName": "Clarithromycin"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Clarithromycin po, Kees 1995, 250 mg, MD, 5 d-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Clarithromycin po, Kees 1995, 250 mg, MD, 5 d|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Kees 1995, 250 mg po MD-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration  ",
+              "X": "Kees 1995, 250 mg po MD|Time  ",
+              "Y": "Kees 1995, 250 mg po MD|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Clarithromycin-Model\nClarithromycin po, Kees 1995, 250 mg, MD, 5 d\n2020-04-01 17:17"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -3.60944438,
+              "Max": 111.775734,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.08450992,
+              "Max": 1.56771219,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Clarithromycin po, Kees 1995, 250 mg, MD, 5 d-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Clarithromycin po, Kees 1995, 250 mg, MD, 5 d|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Kees 1995, 250 mg po MD-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration  ",
+              "X": "Kees 1995, 250 mg po MD|Time  ",
+              "Y": "Kees 1995, 250 mg po MD|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Clarithromycin-Model\nClarithromycin po, Kees 1995, 250 mg, MD, 5 d\n2020-04-01 17:17"
         }
       ]
     },
@@ -4107,7 +6027,7 @@
       "Parameters": [
         {
           "Path": "Clarithromycin|P (blood cells->plasma)",
-          "Value": 1.04E-06,
+          "Value": 1.04e-06,
           "Unit": "dm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -4115,7 +6035,7 @@
         },
         {
           "Path": "Clarithromycin|P (plasma->blood cells)",
-          "Value": 3.62E-05,
+          "Value": 3.62e-05,
           "Unit": "dm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -4173,7 +6093,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-fitted",
@@ -4184,6 +6104,142 @@
           "Name": "P-gp-Eberl (2007)",
           "MoleculeName": "P-gp",
           "CompoundName": "Clarithromycin"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Clarithromycin po, Kees 1995, 500 mg-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Clarithromycin po, Kees 1995, 500 mg|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Kees 1995, 500 mg po-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration  ",
+              "X": "Kees 1995, 500 mg po|Time  ",
+              "Y": "Kees 1995, 500 mg po|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Clarithromycin-Model\nClarithromycin po, Kees 1995, 500 mg\n2020-04-01 17:18"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Clarithromycin po, Kees 1995, 500 mg-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Clarithromycin po, Kees 1995, 500 mg|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Kees 1995, 500 mg po-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration  ",
+              "X": "Kees 1995, 500 mg po|Time  ",
+              "Y": "Kees 1995, 500 mg po|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Clarithromycin-Model\nClarithromycin po, Kees 1995, 500 mg\n2020-04-01 17:18"
         }
       ]
     },
@@ -4223,7 +6279,7 @@
       "Parameters": [
         {
           "Path": "Clarithromycin|P (blood cells->plasma)",
-          "Value": 1.04E-06,
+          "Value": 1.04e-06,
           "Unit": "dm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -4231,7 +6287,7 @@
         },
         {
           "Path": "Clarithromycin|P (plasma->blood cells)",
-          "Value": 3.62E-05,
+          "Value": 3.62e-05,
           "Unit": "dm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -4313,7 +6369,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-fitted",
@@ -4324,6 +6380,146 @@
           "Name": "P-gp-Eberl (2007)",
           "MoleculeName": "P-gp",
           "CompoundName": "Clarithromycin"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Clarithromycin po, Kees 1995, 500 mg, MD, 5 d-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Clarithromycin po, Kees 1995, 500 mg, MD, 5 d|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Kees 1995, 500 mg po MD-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration  ",
+              "X": "Kees 1995, 500 mg po MD|Time  ",
+              "Y": "Kees 1995, 500 mg po MD|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Clarithromycin-Model\nClarithromycin po, Kees 1995, 500 mg, MD, 5 d\n2020-04-01 17:21"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -3.52060461,
+              "Max": 121.831795,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.05814294,
+              "Max": 3.25022173,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Clarithromycin po, Kees 1995, 500 mg, MD, 5 d-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Clarithromycin po, Kees 1995, 500 mg, MD, 5 d|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Kees 1995, 500 mg po MD-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration  ",
+              "X": "Kees 1995, 500 mg po MD|Time  ",
+              "Y": "Kees 1995, 500 mg po MD|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Clarithromycin-Model\nClarithromycin po, Kees 1995, 500 mg, MD, 5 d\n2020-04-01 17:21"
         }
       ]
     },
@@ -4363,7 +6559,7 @@
       "Parameters": [
         {
           "Path": "Clarithromycin|P (blood cells->plasma)",
-          "Value": 1.04E-06,
+          "Value": 1.04e-06,
           "Unit": "dm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -4371,7 +6567,7 @@
         },
         {
           "Path": "Clarithromycin|P (plasma->blood cells)",
-          "Value": 3.62E-05,
+          "Value": 3.62e-05,
           "Unit": "dm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -4441,7 +6637,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-fitted",
@@ -4452,6 +6648,146 @@
           "Name": "P-gp-Eberl (2007)",
           "MoleculeName": "P-gp",
           "CompoundName": "Clarithromycin"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Clarithromycin po, Rengels 2003, 250 mg, MD, 1.5 d-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Clarithromycin po, Rengels 2003, 250 mg, MD, 1.5 d|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Rengelsh. 2003, 250 mg po MD-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration  ",
+              "X": "Rengelsh. 2003, 250 mg po MD|Time  ",
+              "Y": "Rengelsh. 2003, 250 mg po MD|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Clarithromycin-Model\nClarithromycin po, Rengels 2003, 250 mg, MD, 1.5 d\n2020-04-01 17:22"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -0.7487868,
+              "Max": 38.0579567,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0182148516,
+              "Max": 1.98501277,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Clarithromycin po, Rengels 2003, 250 mg, MD, 1.5 d-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Clarithromycin po, Rengels 2003, 250 mg, MD, 1.5 d|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Rengelsh. 2003, 250 mg po MD-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration  ",
+              "X": "Rengelsh. 2003, 250 mg po MD|Time  ",
+              "Y": "Rengelsh. 2003, 250 mg po MD|ObservedData|Peripheral Venous Blood|Plasma|Clarithromycin|Concentration  ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Clarithromycin-Model\nClarithromycin po, Rengels 2003, 250 mg, MD, 1.5 d\n2020-04-01 17:22"
         }
       ]
     }
