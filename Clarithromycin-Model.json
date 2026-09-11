@@ -2347,12 +2347,6 @@
           "ValueOrigin": {
             "Source": "Unknown"
           }
-        },
-        {
-          "Path": "Events|Clarithromycin iv, Chu1992, 250 mg, 0.75 h|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 45.0,
-          "Unit": "min",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -2593,48 +2587,6 @@
           "ValueOrigin": {
             "Source": "Unknown"
           }
-        },
-        {
-          "Path": "Events|Clarithromycin po, Abduljalil 2009, 500 mg 3.5 d|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Clarithromycin po, Abduljalil 2009, 500 mg 3.5 d|Tablet Clarithromycin|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Clarithromycin po, Abduljalil 2009, 500 mg 3.5 d|Tablet Clarithromycin|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Clarithromycin po, Abduljalil 2009, 500 mg 3.5 d|Tablet Clarithromycin|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Clarithromycin po, Abduljalil 2009, 500 mg 3.5 d|Tablet Clarithromycin|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Clarithromycin po, Abduljalil 2009, 500 mg 3.5 d|Tablet Clarithromycin|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Clarithromycin po, Abduljalil 2009, 500 mg 3.5 d|Tablet Clarithromycin|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -2885,12 +2837,6 @@
           "ValueOrigin": {
             "Source": "Unknown"
           }
-        },
-        {
-          "Path": "Events|Clarithromycin po, Chu 1992, 100mg|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -3137,12 +3083,6 @@
           "ValueOrigin": {
             "Source": "Unknown"
           }
-        },
-        {
-          "Path": "Events|Clarithromycin po, Chu 1992, 1200mg|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -3389,12 +3329,6 @@
           "ValueOrigin": {
             "Source": "Unknown"
           }
-        },
-        {
-          "Path": "Events|Clarithromycin po, Chu 1992, 200mg|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -3641,12 +3575,6 @@
           "ValueOrigin": {
             "Source": "Unknown"
           }
-        },
-        {
-          "Path": "Events|Clarithromycin po, Chu 1992, 400mg|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -3893,12 +3821,6 @@
           "ValueOrigin": {
             "Source": "Unknown"
           }
-        },
-        {
-          "Path": "Events|Clarithromycin po, Chu 1992, 600mg|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -4145,12 +4067,6 @@
           "ValueOrigin": {
             "Source": "Unknown"
           }
-        },
-        {
-          "Path": "Events|Clarithromycin po, Chu 1992, 800mg|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -4397,12 +4313,6 @@
           "ValueOrigin": {
             "Source": "Unknown"
           }
-        },
-        {
-          "Path": "Events|Clarithromycin po, Chu 1993, 250mg|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -4649,48 +4559,6 @@
           "ValueOrigin": {
             "Source": "Unknown"
           }
-        },
-        {
-          "Path": "Events|Clarithromycin po, Chu 1993, 250mg, 3.5 d|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Clarithromycin po, Chu 1993, 250mg, 3.5 d|Tablet Clarithromycin|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Clarithromycin po, Chu 1993, 250mg, 3.5 d|Tablet Clarithromycin|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Clarithromycin po, Chu 1993, 250mg, 3.5 d|Tablet Clarithromycin|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Clarithromycin po, Chu 1993, 250mg, 3.5 d|Tablet Clarithromycin|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Clarithromycin po, Chu 1993, 250mg, 3.5 d|Tablet Clarithromycin|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Clarithromycin po, Chu 1993, 250mg, 3.5 d|Tablet Clarithromycin|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -4941,12 +4809,6 @@
           "ValueOrigin": {
             "Source": "Unknown"
           }
-        },
-        {
-          "Path": "Events|Clarithromycin po, Chu 1993, 500mg|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -5193,48 +5055,6 @@
           "ValueOrigin": {
             "Source": "Unknown"
           }
-        },
-        {
-          "Path": "Events|Clarithromycin po, Chu 1993, 500mg, 3.5 d|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Clarithromycin po, Chu 1993, 500mg, 3.5 d|Tablet Clarithromycin|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Clarithromycin po, Chu 1993, 500mg, 3.5 d|Tablet Clarithromycin|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Clarithromycin po, Chu 1993, 500mg, 3.5 d|Tablet Clarithromycin|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Clarithromycin po, Chu 1993, 500mg, 3.5 d|Tablet Clarithromycin|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Clarithromycin po, Chu 1993, 500mg, 3.5 d|Tablet Clarithromycin|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Clarithromycin po, Chu 1993, 500mg, 3.5 d|Tablet Clarithromycin|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -5485,12 +5305,6 @@
           "ValueOrigin": {
             "Source": "Unknown"
           }
-        },
-        {
-          "Path": "Events|Clarithromycin po, Chu 1993, 250mg|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -5737,60 +5551,6 @@
           "ValueOrigin": {
             "Source": "Unknown"
           }
-        },
-        {
-          "Path": "Events|Clarithromycin po, Kees 1995, 250mg, 5 d|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Clarithromycin po, Kees 1995, 250mg, 5 d|Tablet Clarithromycin|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Clarithromycin po, Kees 1995, 250mg, 5 d|Tablet Clarithromycin|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Clarithromycin po, Kees 1995, 250mg, 5 d|Tablet Clarithromycin|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Clarithromycin po, Kees 1995, 250mg, 5 d|Tablet Clarithromycin|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Clarithromycin po, Kees 1995, 250mg, 5 d|Tablet Clarithromycin|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Clarithromycin po, Kees 1995, 250mg, 5 d|Tablet Clarithromycin|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Clarithromycin po, Kees 1995, 250mg, 5 d|Tablet Clarithromycin|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Clarithromycin po, Kees 1995, 250mg, 5 d|Tablet Clarithromycin|Application_9|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -6041,12 +5801,6 @@
           "ValueOrigin": {
             "Source": "Unknown"
           }
-        },
-        {
-          "Path": "Events|Clarithromycin po, Chu 1993, 500mg|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -6293,36 +6047,6 @@
           "ValueOrigin": {
             "Source": "Unknown"
           }
-        },
-        {
-          "Path": "Events|Clarithromycin po, Kees 1995, 500mg, 5 d|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Clarithromycin po, Kees 1995, 500mg, 5 d|Tablet Clarithromycin|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Clarithromycin po, Kees 1995, 500mg, 5 d|Tablet Clarithromycin|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Clarithromycin po, Kees 1995, 500mg, 5 d|Tablet Clarithromycin|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Clarithromycin po, Kees 1995, 500mg, 5 d|Tablet Clarithromycin|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -6573,24 +6297,6 @@
           "ValueOrigin": {
             "Source": "Unknown"
           }
-        },
-        {
-          "Path": "Events|Clarithromycin po, Rengelshausen 2003, 250mg, 1.5 d|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Clarithromycin po, Rengelshausen 2003, 250mg, 1.5 d|Tablet Clarithromycin|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Clarithromycin po, Rengelshausen 2003, 250mg, 1.5 d|Tablet Clarithromycin|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
