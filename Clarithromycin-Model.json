@@ -1677,6 +1677,44 @@
           "Unit": "g/mol",
           "ValueOrigin": {}
         }
+      ],
+      "OverwriteParameterSets": [
+        {
+          "Name": "Clarithromycin - Human",
+          "IsDefault": true,
+          "ExtendedProperties": [
+            {
+              "Name": "Species",
+              "Value": "Human",
+              "Type": "String"
+            },
+            {
+              "Name": "Disease State",
+              "Value": "Healthy",
+              "Type": "String"
+            }
+          ],
+          "ParameterValues": [
+            {
+              "Path": "Clarithromycin|P (blood cells->plasma)",
+              "Value": 1.04e-06,
+              "Dimension": "Velocity",
+              "Unit": "dm/min",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Path": "Clarithromycin|P (plasma->blood cells)",
+              "Value": 3.62e-05,
+              "Dimension": "Velocity",
+              "Unit": "dm/min",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
       ]
     }
   ],
@@ -2333,22 +2371,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Clarithromycin|P (blood cells->plasma)",
-          "Value": 1.04e-06,
-          "Unit": "dm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Clarithromycin|P (plasma->blood cells)",
-          "Value": 3.62e-05,
-          "Unit": "dm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
           "Path": "Events|Clarithromycin iv, Chu1992, 250 mg, 0.75 h|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 45.0,
           "Unit": "min",
@@ -2542,6 +2564,12 @@
           },
           "OriginText": "Clarithromycin-Model\nClarithromycin iv, Chu 1992, 250 mg, 0.75 h\n2020-04-01 17:10"
         }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Clarithromycin",
+          "OverwriteParameterSetName": "Clarithromycin - Human"
+        }
       ]
     },
     {
@@ -2578,22 +2606,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Clarithromycin|P (blood cells->plasma)",
-          "Value": 1.04e-06,
-          "Unit": "dm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Clarithromycin|P (plasma->blood cells)",
-          "Value": 3.62e-05,
-          "Unit": "dm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
         {
           "Path": "Events|Clarithromycin po, Abduljalil 2009, 500 mg 3.5 d|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
@@ -2834,6 +2846,12 @@
           },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Abduljalil 2009, 500 mg, MD, 3.5 d\n2020-04-01 17:11"
         }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Clarithromycin",
+          "OverwriteParameterSetName": "Clarithromycin - Human"
+        }
       ]
     },
     {
@@ -2870,22 +2888,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Clarithromycin|P (blood cells->plasma)",
-          "Value": 1.04e-06,
-          "Unit": "dm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Clarithromycin|P (plasma->blood cells)",
-          "Value": 3.62e-05,
-          "Unit": "dm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
         {
           "Path": "Events|Clarithromycin po, Chu 1992, 100mg|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
@@ -3086,6 +3088,12 @@
           },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1992, 100 mg\n2020-04-01 17:11"
         }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Clarithromycin",
+          "OverwriteParameterSetName": "Clarithromycin - Human"
+        }
       ]
     },
     {
@@ -3122,22 +3130,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Clarithromycin|P (blood cells->plasma)",
-          "Value": 1.04e-06,
-          "Unit": "dm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Clarithromycin|P (plasma->blood cells)",
-          "Value": 3.62e-05,
-          "Unit": "dm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
         {
           "Path": "Events|Clarithromycin po, Chu 1992, 1200mg|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
@@ -3338,6 +3330,12 @@
           },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1992, 1200 mg\n2020-04-01 17:11"
         }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Clarithromycin",
+          "OverwriteParameterSetName": "Clarithromycin - Human"
+        }
       ]
     },
     {
@@ -3374,22 +3372,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Clarithromycin|P (blood cells->plasma)",
-          "Value": 1.04e-06,
-          "Unit": "dm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Clarithromycin|P (plasma->blood cells)",
-          "Value": 3.62e-05,
-          "Unit": "dm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
         {
           "Path": "Events|Clarithromycin po, Chu 1992, 200mg|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
@@ -3590,6 +3572,12 @@
           },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1992, 200 mg\n2020-04-01 17:11"
         }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Clarithromycin",
+          "OverwriteParameterSetName": "Clarithromycin - Human"
+        }
       ]
     },
     {
@@ -3626,22 +3614,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Clarithromycin|P (blood cells->plasma)",
-          "Value": 1.04e-06,
-          "Unit": "dm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Clarithromycin|P (plasma->blood cells)",
-          "Value": 3.62e-05,
-          "Unit": "dm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
         {
           "Path": "Events|Clarithromycin po, Chu 1992, 400mg|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
@@ -3842,6 +3814,12 @@
           },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1992, 400 mg\n2020-04-01 17:12"
         }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Clarithromycin",
+          "OverwriteParameterSetName": "Clarithromycin - Human"
+        }
       ]
     },
     {
@@ -3878,22 +3856,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Clarithromycin|P (blood cells->plasma)",
-          "Value": 1.04e-06,
-          "Unit": "dm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Clarithromycin|P (plasma->blood cells)",
-          "Value": 3.62e-05,
-          "Unit": "dm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
         {
           "Path": "Events|Clarithromycin po, Chu 1992, 600mg|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
@@ -4094,6 +4056,12 @@
           },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1992, 600 mg\n2020-04-01 17:12"
         }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Clarithromycin",
+          "OverwriteParameterSetName": "Clarithromycin - Human"
+        }
       ]
     },
     {
@@ -4130,22 +4098,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Clarithromycin|P (blood cells->plasma)",
-          "Value": 1.04e-06,
-          "Unit": "dm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Clarithromycin|P (plasma->blood cells)",
-          "Value": 3.62e-05,
-          "Unit": "dm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
         {
           "Path": "Events|Clarithromycin po, Chu 1992, 800mg|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
@@ -4346,6 +4298,12 @@
           },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1992, 800 mg\n2020-04-01 17:13"
         }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Clarithromycin",
+          "OverwriteParameterSetName": "Clarithromycin - Human"
+        }
       ]
     },
     {
@@ -4382,22 +4340,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Clarithromycin|P (blood cells->plasma)",
-          "Value": 1.04e-06,
-          "Unit": "dm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Clarithromycin|P (plasma->blood cells)",
-          "Value": 3.62e-05,
-          "Unit": "dm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
         {
           "Path": "Events|Clarithromycin po, Chu 1993, 250mg|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
@@ -4598,6 +4540,12 @@
           },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1993, 250 mg\n2020-04-01 17:13"
         }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Clarithromycin",
+          "OverwriteParameterSetName": "Clarithromycin - Human"
+        }
       ]
     },
     {
@@ -4634,22 +4582,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Clarithromycin|P (blood cells->plasma)",
-          "Value": 1.04e-06,
-          "Unit": "dm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Clarithromycin|P (plasma->blood cells)",
-          "Value": 3.62e-05,
-          "Unit": "dm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
         {
           "Path": "Events|Clarithromycin po, Chu 1993, 250mg, 3.5 d|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
@@ -4890,6 +4822,12 @@
           },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1993, 250 mg, MD, 3.5 d\n2020-04-01 17:15"
         }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Clarithromycin",
+          "OverwriteParameterSetName": "Clarithromycin - Human"
+        }
       ]
     },
     {
@@ -4926,22 +4864,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Clarithromycin|P (blood cells->plasma)",
-          "Value": 1.04e-06,
-          "Unit": "dm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Clarithromycin|P (plasma->blood cells)",
-          "Value": 3.62e-05,
-          "Unit": "dm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
         {
           "Path": "Events|Clarithromycin po, Chu 1993, 500mg|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
@@ -5142,6 +5064,12 @@
           },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1993, 500 mg\n2020-04-01 17:16"
         }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Clarithromycin",
+          "OverwriteParameterSetName": "Clarithromycin - Human"
+        }
       ]
     },
     {
@@ -5178,22 +5106,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Clarithromycin|P (blood cells->plasma)",
-          "Value": 1.04e-06,
-          "Unit": "dm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Clarithromycin|P (plasma->blood cells)",
-          "Value": 3.62e-05,
-          "Unit": "dm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
         {
           "Path": "Events|Clarithromycin po, Chu 1993, 500mg, 3.5 d|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
@@ -5434,6 +5346,12 @@
           },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Chu 1993, 500 mg, MD, 3.5 d\n2020-04-01 17:16"
         }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Clarithromycin",
+          "OverwriteParameterSetName": "Clarithromycin - Human"
+        }
       ]
     },
     {
@@ -5470,22 +5388,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Clarithromycin|P (blood cells->plasma)",
-          "Value": 1.04e-06,
-          "Unit": "dm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Clarithromycin|P (plasma->blood cells)",
-          "Value": 3.62e-05,
-          "Unit": "dm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
         {
           "Path": "Events|Clarithromycin po, Chu 1993, 250mg|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
@@ -5686,6 +5588,12 @@
           },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Kees 1995, 250 mg\n2020-04-01 17:17"
         }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Clarithromycin",
+          "OverwriteParameterSetName": "Clarithromycin - Human"
+        }
       ]
     },
     {
@@ -5722,22 +5630,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Clarithromycin|P (blood cells->plasma)",
-          "Value": 1.04e-06,
-          "Unit": "dm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Clarithromycin|P (plasma->blood cells)",
-          "Value": 3.62e-05,
-          "Unit": "dm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
         {
           "Path": "Events|Clarithromycin po, Kees 1995, 250mg, 5 d|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
@@ -5990,6 +5882,12 @@
           },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Kees 1995, 250 mg, MD, 5 d\n2020-04-01 17:17"
         }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Clarithromycin",
+          "OverwriteParameterSetName": "Clarithromycin - Human"
+        }
       ]
     },
     {
@@ -6026,22 +5924,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Clarithromycin|P (blood cells->plasma)",
-          "Value": 1.04e-06,
-          "Unit": "dm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Clarithromycin|P (plasma->blood cells)",
-          "Value": 3.62e-05,
-          "Unit": "dm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
         {
           "Path": "Events|Clarithromycin po, Chu 1993, 500mg|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
@@ -6242,6 +6124,12 @@
           },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Kees 1995, 500 mg\n2020-04-01 17:18"
         }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Clarithromycin",
+          "OverwriteParameterSetName": "Clarithromycin - Human"
+        }
       ]
     },
     {
@@ -6278,22 +6166,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Clarithromycin|P (blood cells->plasma)",
-          "Value": 1.04e-06,
-          "Unit": "dm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Clarithromycin|P (plasma->blood cells)",
-          "Value": 3.62e-05,
-          "Unit": "dm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
         {
           "Path": "Events|Clarithromycin po, Kees 1995, 500mg, 5 d|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
@@ -6522,6 +6394,12 @@
           },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Kees 1995, 500 mg, MD, 5 d\n2020-04-01 17:21"
         }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Clarithromycin",
+          "OverwriteParameterSetName": "Clarithromycin - Human"
+        }
       ]
     },
     {
@@ -6558,22 +6436,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Clarithromycin|P (blood cells->plasma)",
-          "Value": 1.04e-06,
-          "Unit": "dm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Clarithromycin|P (plasma->blood cells)",
-          "Value": 3.62e-05,
-          "Unit": "dm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
         {
           "Path": "Events|Clarithromycin po, Rengelshausen 2003, 250mg, 1.5 d|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
@@ -6789,6 +6651,12 @@
             "DiagramBackColor": "#FFFFFF"
           },
           "OriginText": "Clarithromycin-Model\nClarithromycin po, Rengels 2003, 250 mg, MD, 1.5 d\n2020-04-01 17:22"
+        }
+      ],
+      "OverwriteParameterSetSelections": [
+        {
+          "CompoundName": "Clarithromycin",
+          "OverwriteParameterSetName": "Clarithromycin - Human"
         }
       ]
     }
